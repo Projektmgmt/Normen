@@ -123,7 +123,7 @@ for c in KAT_COLS:
 # -------------------------------------------------------
 # UI & Filter
 # -------------------------------------------------------
-st.title("📘 Normen und Standards für Projekt-, Programm- und Portfoliomanagement")
+st.title("📘 Recherche von Normen und Standards für das Projekt-, Programm- und Portfoliomanagement")
 st.subheader("Prof. Dr. Michael Klotz, Prof. Dr. Susanne Marx, Benjamin Birkmann")
 st.markdown("""
 Die hier aufgeführten Normen und Standards des Projekt-, Programm- und Portfoliomanagements wurden im Rahmen eines Arbeitspapiers von Prof. Dr. Michael Klotz und Prof. Dr. Susanne Marx ermittelt. Hierfür kamen Methoden der Dokumentenanalyse, der systematischen Literaturanalyse und der qualitativen Inhaltsanalyse zum Einsatz.
@@ -313,6 +313,7 @@ if not filtered_df.empty:
         file_name=f"Normen_Standards_{datetime.now().strftime('%Y%m%d_%H%M')}.pdf",
         mime="application/pdf"
     )
+
 
 
 
