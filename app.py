@@ -21,7 +21,7 @@ from typing import List
 # -------------------------------------------------------
 # Seite & Styling
 # -------------------------------------------------------
-st.set_page_config(page_title="Normen und Standards für Projekt-, Programm- und Portfoliomanagement", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Recherche von Normen und Standards für das Projekt-, Programm- und Portfoliomanagement", layout="wide", initial_sidebar_state="expanded")
 
 # Light UI (Seitenleiste & Hintergrund)
 st.markdown(
@@ -313,6 +313,7 @@ if not filtered_df.empty:
         file_name=f"Normen_Standards_{datetime.now().strftime('%Y%m%d_%H%M')}.pdf",
         mime="application/pdf"
     )
+
 
 
 
