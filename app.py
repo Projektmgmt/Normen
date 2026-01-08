@@ -132,6 +132,8 @@ Die jeweilige Beschreibung enthält eine Inhaltsangabe, den formellen Status der
 Insofern soll dieses Arbeitspapier nicht nur eine aktuelle, systematische Zusammenstellung bieten, sondern es stellt auch eine Hilfestellung für ein schnelles Orientieren und Nachschlagen dar.
 Hierfür wurden die PM- Normen und -Standards verschiedenen Kategorien zugeordnet, die ihre inhaltliche Ausrichtung signalisieren.
 
+Durch Experten empfohlende weitere Standards bzw. Aktualisierungen nehmen wir nach Prüfung in die Übersicht auf. Diese werden mit dem Zusatz "added / neu aufgenommen" gekennzeichnet.
+
 Das Arbeitspapier steht frei zum Download zur Verfügung:
 https://doi.org/10.13140/RG.2.2.18483.54562
 Ebenso sind als Zusammenfassung Präsentationen auf Deutsch (DOI: 10.13140/RG.2.2.14744.87047) und Englisch (DOI: 10.13140/RG.2.2.21455.75683) verfügbar.""")
@@ -235,6 +237,7 @@ def create_pdf(dataframe: pd.DataFrame, namen: List[str]) -> bytes:
         Die jeweilige Beschreibung enthält eine Inhaltsangabe, den formellen Status der Norm bzw. des Standards und Links für die eigene weiterführende Recherche.<br/>
         Insofern soll dieses Arbeitspapier nicht nur eine aktuelle, systematische Zusammenstellung bieten, sondern es stellt auch eine Hilfestellung für ein schnelles Orientieren und Nachschlagen dar.<br/>
         Hierfür wurden die PM- Normen und -Standards verschiedenen Kategorien zugeordnet, die ihre inhaltliche Ausrichtung signalisieren.<br/>
+        Durch Experten empfohlende weitere Standards bzw. Aktualisierungen nehmen wir nach Prüfung in die Übersicht auf. Diese werden mit dem Zusatz "added / neu aufgenommen" gekennzeichnet.<br/>
         Das Arbeitspapier steht frei zum Download zur Verfügung:<br/>
         https://doi.org/10.13140/RG.2.2.18483.54562<br/>
         Ebenso sind als Zusammenfassung Präsentationen auf Deutsch (DOI: 10.13140/RG.2.2.14744.87047) und Englisch (DOI: 10.13140/RG.2.2.21455.75683) verfügbar.""", styles["Normal"]),
@@ -313,6 +316,7 @@ if not filtered_df.empty:
         file_name=f"Normen_Standards_{datetime.now().strftime('%Y%m%d_%H%M')}.pdf",
         mime="application/pdf"
     )
+
 
 
 
