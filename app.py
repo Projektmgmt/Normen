@@ -133,6 +133,7 @@ Insofern soll dieses Arbeitspapier nicht nur eine aktuelle, systematische Zusamm
 Hierfür wurden die PM- Normen und -Standards verschiedenen Kategorien zugeordnet, die ihre inhaltliche Ausrichtung signalisieren.
 
 Durch Experten empfohlende weitere Standards bzw. Aktualisierungen nehmen wir nach Prüfung in die Übersicht auf. Diese werden mit dem Zusatz "added / neu aufgenommen" gekennzeichnet.
+Änderungen wie Neuauflagen werden fortlaufend ergänzt und als "aktualisiert / updated" gekennzeichnet.
 
 Das Arbeitspapier steht frei zum Download zur Verfügung:
 https://doi.org/10.13140/RG.2.2.18483.54562
